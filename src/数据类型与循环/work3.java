@@ -11,14 +11,12 @@ public class work3 {
     public static void main(String[] args) {
         int j=0;
         for(int i=1;i<=100;i++){
-            for(j=2;j<i;j++){
+            for(j=2;j<=Math.sqrt(i);j++){
                 if(i%j==0){
                     break;
-                }else{
-                    continue;
                 }
             }
-            if(j==i){
+            if(j>Math.sqrt(i)){
                 System.out.println(i);
             }
         }
