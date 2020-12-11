@@ -14,14 +14,12 @@ public class work4 {
         Scanner cin=new Scanner(System.in);
         int a=cin.nextInt();
         int j=0;
-        for(j=2;j<a;j++) {
+        for(j=2;j<=Math.sqrt(a);j++) {
             if (a % j == 0) {
                 break;
-            } else {
-                continue;
             }
         }
-        if(j==a){
+        if(j>Math.sqrt(a)){
             System.out.println("是素数");
         }
         else{
