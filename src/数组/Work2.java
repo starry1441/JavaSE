@@ -1,5 +1,4 @@
 package 数组;
-
 /**
  * Created with IntelliJ IDEA.
  * Description:实现一个方法 sum, 以数组为参数, 求数组所有元素之和.

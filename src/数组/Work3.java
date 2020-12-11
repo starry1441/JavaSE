@@ -1,5 +1,4 @@
 package 数组;
-
 /**
  * Created with IntelliJ IDEA.
  * Description:实现一个方法 transform, 以数组为参数, 循环将数组中的每个元素 乘以 2 , 并设置到对应的数组元素上.
