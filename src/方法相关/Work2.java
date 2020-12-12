@@ -1,5 +1,4 @@
 package 方法相关;
-
 import java.util.Scanner;
 
 /**
