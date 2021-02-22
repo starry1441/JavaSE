@@ -87,7 +87,8 @@ public class Book {
                 ", author='" + author + '\'' +
                 ", price=" + price +
                 ", type='" + type + '\'' +
-                ", status=" + status +
+                /*", status=" + status +*/
+                ((status == true) ? "借出": "未借出") +
                 '}';
     }
 }
